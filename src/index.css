@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Neuton:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Judson:wght@700&family=Neuton:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  P {
+    @apply font-light;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    overflow-x:hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p,span {
+  font-family: 'Inter', sans-serif;
+}
+.judson {
+  font-family: 'Judson', serif;
+}
+
+@media only screen and (max-width: 767px){
+  header {
+    display: none;
+  }
+}
