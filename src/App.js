@@ -6,7 +6,6 @@ import Footer from './pages/Footer'
 import Header from './pages/Header'
 import Nav from './pages/Nav/Nav'
 q
-q
 function App() {
   return (
     <div>
