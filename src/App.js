@@ -22,7 +22,6 @@ q
 q
 q
 q
-q
 function App() {
   return (
     <div>
