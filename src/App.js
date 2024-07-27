@@ -8,7 +8,6 @@ import Nav from './pages/Nav/Nav'
 q
 q
 q
-q
 function App() {
   return (
     <div>
